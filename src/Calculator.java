@@ -34,7 +34,7 @@ public class Calculator extends JFrame {
         setVisible(true);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setResizable(true);
+        setResizable(false);
 
         JPanel panel = new JPanel();
         panel.setBackground(Color.WHITE);
